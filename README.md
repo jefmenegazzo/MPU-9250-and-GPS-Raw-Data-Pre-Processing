@@ -1,3 +1,9 @@
+[![GitHub](https://img.shields.io/github/license/Intelligent-Vehicle-Perception/MPU-9250-Data-Plot-Video-Creator)](LICENSE) 
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/Intelligent-Vehicle-Perception/MPU-9250-Data-Plot-Video-Creator) 
+![pypi](https://img.shields.io/pypi/v/pybadges.svg)
+![versions](https://img.shields.io/pypi/pyversions/pybadges.svg)
+![GitHub issues](https://img.shields.io/github/issues/Intelligent-Vehicle-Perception/MPU-9250-Data-Plot-Video-Creator) 
+
 # MPU-9250 and GPS Raw Data Pre-Processing
 
 This project preprocesses the raw data sampled through MPU-9250 and GPS. For this purpose, there are four jupyter notebooks and configuration files:
