@@ -14,33 +14,42 @@
 
 # MPU-9250 and GPS Raw Data Pre-Processing
 
-This project preprocesses the raw data sampled through MPU-9250 and GPS.
+This project pre-processes the raw data sampled through MPU-9250 sensors (accelerometer, gyroscope, magnetometer and temperature) and GPS.
 
 ## Table of Contents
+- [Instalation](#Instalation)
 - [How To Use](#How-To-Use)
 - [How To Cite](#How-To-Cite)
 
+## Instalation
+ 
+Clone this repository:
+
+```bash
+git clone https://github.com/Intelligent-Vehicle-Perception/MPU-9250-and-GPS-Raw-Data-Pre-Processing.git
+```
+
 ## How To Use
 
-There are four jupyter notebooks and configuration files:
+There are four jupyter notebooks and python configuration files:
 
-- **1 - Raw Data Fix Correction**: In this notebook data collected on the right and left of the vehicle are adjusted and joined with GPS data.
-    - *1 - Raw Data Fix Correction.ipynb*: codes that perform operations based on the information in the respective *.py* file.
-    - *1 - Raw Data Fix Correction.py*: folder settings to read/write datasets and shift data.
+- **1 - Raw Data Fix Correction**: data collected on the right and left side of the vehicle are adjusted, synced and joined with the GPS data.
+    - *1 - Raw Data Fix Correction.ipynb*: jupyter notebook that perform operations described above using the information described in the respective *.py* file.
+    - *1 - Raw Data Fix Correction.py*: configuration file to describe the folder to read/write datasets and time shift data.
 
-- **2 - Processed Data Visualization**: In this notebook data is shown in graphs.
-    - *2 - Processed Data Visualization.ipynb*: code that plots the graphs.
-    - *2 - Processed Data Visualization.py*: folder to read datasets.
+- **2 - Processed Data Visualization**: plot pre-processed data in several graphs.
+    - *2 - Processed Data Visualization.ipynb*: jupyter notebook that plot the data.
+    - *2 - Processed Data Visualization.py*: configuration file to describe the folder to read datasets.
 
-- **3 - Data Labeling**: this notebook labels the data.
-    - *3 - Data Labeling.ipynb*: code that labels the data.
-    - *3 - Data Labeling.py*: specification for each label name dataset and sample number that marks the beginning and end of the label.
+- **3 - Data Labeling**: create labels for data classes.
+    - *3 - Data Labeling.ipynb*: jupyter notebook that labels the data.
+    - *3 - Data Labeling.py*: configuration file that specifies for each dataset its data class labels and the sample range of the label.
 
-- **4 - Processed Labels Visualization**: In this notebook data with labels is shown in graphs.
-    - *4 - Processed Labels Visualization.ipynb*: code that plots the graphs.
-    - *4 - Processed Labels Visualization.py*: folder to read datasets and labels.
+- **4 - Processed Labels Visualization**: plot the data and labels in several graphs.
+    - *4 - Processed Labels Visualization.ipynb*: jupyter notebook that plot the data and labels.
+    - *4 - Processed Labels Visualization.py*: configuration file to describe the folder to read datasets and labels.
 
-For each of the functionalities, just configure the parameters in the .py files and run the jupyter notebook (.ipynb).
+For each of the functionalities, just configure the parameters in the python file (.py) and run the corresponding jupyter notebook (.ipynb).
 
 ## How To Cite
 
