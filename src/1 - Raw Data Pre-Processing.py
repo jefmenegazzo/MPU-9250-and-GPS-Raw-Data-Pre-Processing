@@ -1,7 +1,7 @@
 workspace = {
     "settings": {
         "readFolder": "E:\\Dados Brutos\\100 Hz",
-        "saveFolder": "E:\\Dados Processados\\100 Hz"
+        "saveFolder": "E:\\DataSets\\100 Hz"
     },
     "datasets": {
         "saveiro-1": {

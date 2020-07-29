@@ -1,6 +1,6 @@
 workspace = {
     "settings": {
-        "folder": "E:\\Dados Processados\\100 Hz"
+        "folder": "E:\\DataSets\\100 Hz"
     },
     "datasets": {
         "saveiro-1": {
