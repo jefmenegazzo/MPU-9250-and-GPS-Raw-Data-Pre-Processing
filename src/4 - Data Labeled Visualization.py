@@ -1,33 +1,33 @@
 workspace = {
     "settings": {
-        "folder": "E:\\Dados Processados\\100 Hz"
+        "folder": "E:\\DataSets\\100 Hz"
     },
     "datasets": {
-        "saveiro-1": {
+        "pvs-1": {
             "folder": "PVS 1"
         },
-        "saveiro-2": {
+        "pvs-2": {
             "folder": "PVS 2"
         },
-        "saveiro-3": {
+        "pvs-3": {
             "folder": "PVS 3"
         },
-        "bravo-1": {
+        "pvs-4": {
             "folder": "PVS 4"
         },
-        "bravo-2": {
+        "pvs-5": {
             "folder": "PVS 5"
         },
-        "bravo-3": {
+        "pvs-6": {
             "folder": "PVS 6"
         },
-        "palio-1": {
+        "pvs-7": {
             "folder": "PVS 7"
         },
-        "palio-2": {
+        "pvs-8": {
             "folder": "PVS 8"
         },
-        "palio-3": {
+        "pvs-9": {
             "folder": "PVS 9"
         }
     }
