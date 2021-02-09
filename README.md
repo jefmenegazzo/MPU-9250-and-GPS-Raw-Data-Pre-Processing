@@ -39,11 +39,11 @@ There are four jupyter notebooks and python configuration files:
 - **2 - Pre-Processed Data Visualization**: plot pre-processed data in several graphs.
     - *2 - Pre-Processed Data Visualization.ipynb*: jupyter notebook that plot the data.
 
-- **3 - Data Labeling**: create labels for data classes.
-    - *3 - Data Labeling.ipynb*: jupyter notebook that create labels for the data.
+- **3 - Data Class Labeling**: create labels for data classes.
+    - *3 - Data Class Labeling.ipynb*: jupyter notebook that create labels for the data.
 
-- **4 - Data Labeled Visualization**: plot the data and labels in several graphs.
-    - *4 - Data Labeled Visualization.ipynb*: jupyter notebook that plot the data and labels.
+- **4 - Data Class Visualization**: plot the data and labels in several graphs.
+    - *4 - Data Class Visualization.ipynb*: jupyter notebook that plot the data and labels.
 
 ## How To Cite
 
